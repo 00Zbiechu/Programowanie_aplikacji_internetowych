@@ -1,0 +1,60 @@
+body{
+    background-color: yellow;
+}
+
+.logo{
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-start;
+align-items: center;
+align-content: flex-start;
+}
+
+.duck{
+
+width: 200px;
+padding: 10px;
+
+
+}
+
+h1{
+    text-align: center;
+}
+
+.navigation{
+
+
+    margin-left: 0;
+    background: rgb(5,18,94);
+    background: linear-gradient(90deg, rgba(5,18,94,1) 0%, rgba(12,109,140,1) 36%, rgba(255,255,255,0) 73%);
+
+}
+
+li{
+    color: black;
+}
+
+
+.pb-5, .py-5 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+
+
+h2{
+    text-align: center;
+}
+
+
+.textnexttoimg{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+
+}
